@@ -1,2 +1,2 @@
 # bayes-theorem
-Naive Bayes in Node.js
+Bayes Theorem in Node.js

@@ -1,7 +1,7 @@
 {
   "name": "bayes-theorem",
   "version": "1.0.0",
-  "description": "Naive Bayes in Node.js",
+  "description": "Bayes Theorem in Node.js",
   "main": "index.js",
   "scripts": {
     "pretest": "prettier --write index.js test.js",
