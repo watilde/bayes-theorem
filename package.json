@@ -4,7 +4,8 @@
   "description": "Naive Bayes in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "prettier --write index.js test.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/watilde/bayes-theorem/issues"
   },
-  "homepage": "https://github.com/watilde/bayes-theorem#readme"
+  "homepage": "https://github.com/watilde/bayes-theorem#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
